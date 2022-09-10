@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <studio.h>
+#include <studio.h>
+
 /**
  * main - Entry point
  * Return: Always 1 (Success)
