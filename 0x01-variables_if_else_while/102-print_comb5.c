@@ -3,44 +3,13 @@
 /**
  * main - Entry point
  *
- * Return: always 0 (Success)
+ * Return: Always 0 (Succes)
  */
-
 int main(void)
-{
-	int a = 0;
-	int b;
-
-	while (a <= 98)
-	{
-		b = a + 1;
-		while (b <= 99)
-		{
-			putchar(a / 10 % 10 + '0');
-			putchar(a % 10 + '0');
-			putchar(' ');
-			putchar(b / 10 % 10 + '0');
-			putchar(b % 10 + '0');
-			if (a == 98 && b == 99)
-			{
-				putchar('\n');
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
-			b++;
-		}
-		a++;
-	}
-	return (0);
+{char abc = 'z';
+for (; abc >= 'a'; abc--)
+{putchar(abc);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
+putchar('\n');
+return (0);
+}
