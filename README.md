@@ -1,1 +1,1 @@
-This is a readme for C-functions and nested loops
+ This is a readme file for C-Debugging
