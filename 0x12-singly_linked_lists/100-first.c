@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-void first(void) --attribute-- ((constructor));
-
 /**
-*first - pronts a sentence before the main
-*function is executed
+*first - function executed before main
+*Return: no return.
 */
-void first(void)
+
+void __attribute__ ((constructor)) first()
 {
-	printf("You're beat! and yet, you must allow, \n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow");
+	printf(",\nI bore my house upon my back!\n");
 }
