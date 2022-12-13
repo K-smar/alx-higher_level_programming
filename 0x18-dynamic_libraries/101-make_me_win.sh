@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -q --output-document=$HOME/lib101-makemewin.so https://github.com/K-smar/alx-low_level_programming/raw/master/0x18-dynamic_libraries/lib101-makemewin.so
-export LD_PRELOAD=$HOME/lib101-makemewin.so
+wget -P /tmp https://github.com/sidneyriffic/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/putshack.so
+export LD_PRELOAD=/tmp/putshack.so
