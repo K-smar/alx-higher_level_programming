@@ -1,2 +1,2 @@
-# sorting-_algorithms
+# sorting_algorithms
 My bash script
