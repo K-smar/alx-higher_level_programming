@@ -43,4 +43,4 @@ function printMovieCharacters (movieId) {
     });
 }
 
-printMovieCharacters(process.argv[2])
+printMovieCharacters(process.argv[2]);
